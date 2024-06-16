@@ -1,7 +1,10 @@
 on:
   push:
     branches:
-      - "*"
+      - "master"
+      - "only-node"
+      - "only-rust"
+      - "order"
   workflow_dispatch:
 
 name: "Release"
