@@ -8,10 +8,6 @@
   "plugins": [
     "sentence-case",
     {
-      "type": "cargo-workspace",
-      "updatePeerDependencies": true
-    },
-    {
       "type": "node-workspace",
       "updatePeerDependencies": true
     }
