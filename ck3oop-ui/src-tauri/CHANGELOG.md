@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.1.3](https://github.com/bukowabot/release-please-bug1/compare/tauri-rust-v0.1.2...tauri-rust-v0.1.3) (2024-06-16)
+
+
+### Features
+
+* Everything changes ([c04a4f7](https://github.com/bukowabot/release-please-bug1/commit/c04a4f7bc96bd003882051cc722fa849f2e21edf))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * ck3oop-core-rs bumped from 0.1.2 to 0.1.3
+
 ## [0.1.2](https://github.com/bukowabot/release-please-bug1/compare/tauri-rust-v0.1.1...tauri-rust-v0.1.2) (2024-06-16)
 
 
