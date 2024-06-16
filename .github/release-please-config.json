@@ -8,24 +8,26 @@
   "plugins": [
     "sentence-case",
     {
-      "type": "node-workspace",
+      "type": "cargo-workspace",
       "updatePeerDependencies": true
     },
     {
-      "type": "cargo-workspace",
-      "updateDependencies": true
+      "type": "node-workspace",
+      "updatePeerDependencies": true
     }
   ],
   "packages": {
     "ck3oop-core-rs": {
       "initial-version": "0.1.0",
       "changelog-path": "CHANGELOG.md",
-      "release-type": "rust"
+      "release-type": "rust",
+      "component": "core-rust"
     },
     "ck3oop-ui/src-tauri": {
       "initial-version": "0.1.0",
       "changelog-path": "CHANGELOG.md",
       "release-type": "rust",
+      "component": "tauri-rust",
       "extra-files": [
         {
           "type": "json",
@@ -37,12 +39,14 @@
     "ck3oop-core-js": {
       "initial-version": "0.1.0",
       "changelog-path": "CHANGELOG.md",
-      "release-type": "node"
+      "release-type": "node",
+      "component": "core-js"
     },
     "ck3oop-ui": {
       "initial-version": "0.1.0",
       "changelog-path": "CHANGELOG.md",
-      "release-type": "node"
+      "release-type": "node",
+      "component": "ui-js"
     }
   },
   "changelog-sections": [
