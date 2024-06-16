@@ -1,8 +1,7 @@
 on:
   push:
     branches:
-      - master
-      - order
+      - "*"
   workflow_dispatch:
 
 name: "Release"
